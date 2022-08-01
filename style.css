@@ -37,7 +37,7 @@ ul {
     justify-content: flex-start;
     margin-left: 70%;
     margin-top: 20px;
-    align-items: center;
+    align-items:baseline;
    
 }
 .nav2 li {
@@ -45,10 +45,11 @@ ul {
 
 }
 .navbar1 {
-    width: 400px;
+    width: 350px;
 }
 .navbar2 {
-   width: 800px;
+   width: 850px;
+   padding-bottom: 20px;
 
 
 }
@@ -61,8 +62,12 @@ ul {
     border-radius: 50px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     padding: 5px;
+    padding-top: 10px;
     color: white;
     margin-left: 10px;
+}
+.start-btn a{
+    color:#FFFFFF
 }
 .hero-section {
     height: 474px;
@@ -76,8 +81,7 @@ ul {
 
 .second-hero img {
     margin-left: 410px; 
-    margin-top: 4px;
-    /* max-width: 100%;  */
+    margin-top: 4px; 
 }
 .first-hero h1 {
     font-style: normal;
@@ -301,7 +305,7 @@ a {
 #section-head {
     color: #022B69;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .fifth-container {
     display: flex;
