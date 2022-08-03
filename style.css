@@ -241,7 +241,7 @@ a {
     color: #1AD5FE;
 }
 .company {
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -270,7 +270,7 @@ a {
     text-align: center;
 }
 .section4-text p {
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -299,7 +299,7 @@ a {
 }
 .blue-div h4 {
     margin-bottom: 31px;
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -309,7 +309,7 @@ a {
     margin-bottom: 65px;
     width: 234px;
     height: 57px;
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -331,7 +331,7 @@ a {
 }
 .white-div1 h4 {
     margin-bottom: 31px;
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -341,7 +341,7 @@ a {
     margin-bottom: 65px;
     width: 234px;
     height: 57px;
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -355,7 +355,7 @@ a {
     padding: 0 100px;
 }
 .fifth-part h3 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -475,7 +475,7 @@ a {
     justify-content: space-around;
 }
 .greater-div2 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -524,7 +524,7 @@ footer {
     height: 796px;
 }
 .bg-para {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -544,7 +544,7 @@ footer {
     width: 213px;
     height: 57.81px;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21.3px;
@@ -573,7 +573,7 @@ footer {
 }
 .foot-sect-2  div ul li {
     padding-bottom: 15px;
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -586,7 +586,7 @@ footer {
 }
 
 #first-child {
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -594,7 +594,7 @@ footer {
     color: #FFFFFF;
 }
 .last-para {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
