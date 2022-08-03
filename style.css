@@ -32,7 +32,7 @@ ul {
 
 }
 .nav1 li {
-    margin: 5px;
+    margin-left: 23px;
 }
 .nav1 li a {
     color: #0000FF;
@@ -82,10 +82,8 @@ ul {
     background-color: #022B69;
     display: flex;
     color: #ffffff;
-    font-family: "Inter", sans-serif;
-
+    font-family: "Inter", sans-serif
 }
-
 .second-hero img {
     margin-left: 300px; 
     margin-top: 30px;
@@ -199,7 +197,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 60px;
+    padding: 0px 100px;
     
 
 }
@@ -241,11 +239,9 @@ a {
     font-size: 18px;
     line-height: 22px;
     color: #1AD5FE;
-    
-
 }
 .company {
-    font-family: 'Gotham Pro'; cant find font type
+    font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -260,6 +256,7 @@ a {
 
 .fourth-part {
     height: 550px;
+    padding-left: 100px;
 }
 .section4-text {
     margin-top: 116px;
@@ -286,6 +283,7 @@ a {
     display: flex;
     justify-content:space-around;
     margin-top: 47px;
+    text-align: center;
 }
 .blue-div {
     background: linear-gradient(157.9deg, #022B69 37.56%, #0066F5 106.92%);
@@ -293,7 +291,31 @@ a {
     border-radius: 5px;
     color: #FFFFFF;
     width: 276px;
-    height: 259px;
+    height: 259px;    
+}
+.blue-div svg {
+    margin-top: 31px;
+    margin-bottom: 18px;
+}
+.blue-div h4 {
+    margin-bottom: 31px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+}
+.blue-div p {
+    margin-bottom: 65px;
+    width: 234px;
+    height: 57px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 24px;
 }
 .white-div1 {
     width: 276px;
@@ -303,9 +325,34 @@ a {
     border-radius: 5px;
     
 }
+.white-div1 svg {
+    margin-top: 31px;
+    margin-bottom: 18px;
+}
+.white-div1 h4 {
+    margin-bottom: 31px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+}
+.white-div1 p {
+    margin-bottom: 65px;
+    width: 234px;
+    height: 57px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 24px;
+}
 .fifth-part {
     height: 677px;
     background-color: #F4F8FC;
+    padding: 0 100px;
 }
 .fifth-part h3 {
     font-family: 'Inter';
@@ -358,7 +405,7 @@ a {
     text-align: center;
     margin: 0 24px 27px 29px;
     color: #3D3D46
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
 }
 .first-half div button {
     width: 301px;
@@ -387,6 +434,7 @@ a {
 .sixth-part {
     max-height: 1645.5px;
     max-width: 100%;
+    padding: 0 100px;
 }
 .art-six {
     display: flex;
@@ -505,9 +553,23 @@ footer {
     border: none;
     margin-top: 51px;
 }
+.foot-sect-1 {
+    border-bottom: 1px solid #1AD5FE;
+    padding-left: 155px;
+}
 .foot-sect-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-start;
+    border-bottom: 1px solid #1AD5FE;
+    height: 264px;
+    padding-top: 43.44px;
+}
+.foot-svg1{
+    margin-right: 120px;
+    padding-left: 100px;
+}
+.foot-sect-2  div ul {
+    margin: 0px 15px;
 }
 .foot-sect-2  div ul li {
     padding-bottom: 15px;
@@ -517,11 +579,12 @@ footer {
     font-size: 14px;
     line-height: 13px;
     color: #1AD5FE;
-    
+    /* margin-left: 45px; */    
 }
-/* .foot-sect-2 div {
-    margin-right: 60px;
-} */
+.foot-div-2 {
+    margin-left: 120px;
+}
+
 #first-child {
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -537,11 +600,15 @@ footer {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    width: 985px;
     height: 51px;
     text-align: start;
     margin: 30px;
+    padding: 0 100px;
 
+}
+.last-para p {
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 /* 
