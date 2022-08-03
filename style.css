@@ -6,7 +6,7 @@
 .main_container {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    padding: 0px 100px;
     color: #0000FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -16,7 +16,8 @@
 }
 header {
     max-width: 100%;
-    height: 86px;
+    max-height: 86px;
+    
 
 }
 ul {
@@ -27,15 +28,19 @@ ul {
     justify-content: flex-start;
     margin: 20px;
     align-items: center;
+    
 
 }
 .nav1 li {
     margin: 5px;
 }
+.nav1 li a {
+    color: #0000FF;
+    ;
+}
 .nav2 {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 70%;
+    justify-content: flex-end;
     margin-top: 20px;
     align-items:baseline;
    
@@ -50,7 +55,9 @@ ul {
 .navbar2 {
    width: 850px;
    padding-bottom: 20px;
-
+}
+.log a {
+    color: #0000FF;
 
 }
 .start-btn {
@@ -80,24 +87,25 @@ ul {
 }
 
 .second-hero img {
-    margin-left: 410px; 
-    margin-top: 4px; 
-}
+    margin-left: 300px; 
+    margin-top: 30px;
+    max-width: 480px;
+    max-height: 481.68px;
+    object-fit: cover; 
+ } 
 .first-hero h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    margin: 55px;
+    margin: 55px 55px 55px 0px;
 }
 .first-hero p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    margin: 35px;
-    margin-left: 55px;
-
+    margin: 35px 35px 35px 0px;
 }
 .first-hero ul li {
     width: 184px;
@@ -109,9 +117,9 @@ ul {
     line-height: 16.94px;
     color: #0000FF;
     text-align: center;
-    margin: 35px;
-    margin-left: 55px;
-
+    margin: 35px 35px 35px 0px;
+}
+.first-hero { margin-left: 100px;
 }
 a {
     text-decoration:none;
@@ -138,6 +146,7 @@ a {
     font-family: "Inter", sans-serif;
     line-height: 21.78px;
 }
+
 .flex-div h3 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -145,15 +154,13 @@ a {
     font-size: 18px;
     line-height: 22px;
     color: #3D3D46;
+    margin: 15px 12px;
 }
 .flex-a, .flex-b, .flex-c {
     display: flex;
 }
 .flex-div p {
     margin: 15px 12px 5px 12px;
-}
-.flex-div h3 {
-    margin: 15px 12px;
 }
 .flex-a div svg, .flex-b div svg, .flex-c div svg {
     margin: 15px 12px;
@@ -182,8 +189,9 @@ a {
     color: #0000FF;
 }
 .flex-c {
-    border-bottom: 0px solid #B2BED0;
-}
+    font-family: "Inter", sans-serif;
+    line-height: 21.78px;
+} 
 .padlock {
     background: #022B69;
     color: #FFFFFF;
@@ -236,7 +244,7 @@ a {
 
 }
 .company {
-    /* font-family: 'Gotham Pro'; cant find font type */
+    font-family: 'Gotham Pro'; cant find font type
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -250,7 +258,7 @@ a {
 }
 
 .fourth-part {
-    height: 674px;
+    height: 550px;
 }
 .section4-text {
     margin-top: 116px;
@@ -273,7 +281,7 @@ a {
     text-align: center;
     margin-top: 18px;
 }
-.flex-div {
+.flex-div2 {
     display: flex;
     justify-content:space-around;
     margin-top: 47px;
@@ -349,7 +357,7 @@ a {
     text-align: center;
     margin: 0 24px 27px 29px;
     color: #3D3D46
-    /* word-wrap: break-word; */
+    word-wrap: break-word;
 }
 .first-half div button {
     width: 301px;
@@ -437,6 +445,7 @@ a {
     /* flex-direction: column; */
     max-height: 327px;
     margin-left: 205px;
+    z-index: 2;
 }
 .bg-box1 {
     background: rgba(14, 52, 79, 0.3);
@@ -472,11 +481,12 @@ footer {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    width: 337px;
+    width: 300px;
     height: 58px;
     color: #ffffff;
     transform: translate(354px, -272px);
     word-wrap: break-word;
+    z-index: 0;
 }
 .bg-para button{
     background: #DDFA00;
