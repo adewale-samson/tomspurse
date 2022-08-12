@@ -4,13 +4,9 @@
     padding: 0px;
 
 }
-body {
-    /* width: 100%; */
-}
 .main_container {
     display: flex;
     align-items: center;
-    /* padding: 0px 100px; */
     color: #0000FF;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -54,10 +50,6 @@ ul {
    width: 850px;
    padding-bottom: 20px;
 }
-.log a {
-    color: #0000FF;
-
-}
 .start-btn {
     background: #0000FF;
     width: 140px;
@@ -70,10 +62,11 @@ ul {
     padding-top: 10px;
     color: white;
     margin-left: 10px;
+    border: none;
 }
-.start-btn a{
+/* .start-btn a{
     color:#FFFFFF
-}
+} */
 .hamburger {
     display: none;
 }
@@ -110,7 +103,7 @@ ul {
     height: 38px;
     margin: 35px 35px 35px 0px;
 }
-.first-hero ul li {
+.first-hero button {
     width: 184px;
     height: 43px;
     padding: 13px;
@@ -121,6 +114,7 @@ ul {
     color: #0000FF;
     text-align: center;
     margin: 35px 35px 35px 0px;
+    border: none;
 }
 .first-hero { 
     margin-left: 100px;
@@ -137,8 +131,7 @@ a {
 .b-one {
     margin-top: 30px;
 }
-.b-two {
-    
+.b-two {   
     border: -1px solid #B2BED0;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
@@ -586,6 +579,9 @@ footer {
     padding: 43.44px 100px 0 100px;
     max-width: 100%;
 }
+.foot-sect-mobile {
+    display: none;
+}
 .foot-svg1{
     /* margin-right: 120px; */
     padding-left: 60px;
@@ -622,7 +618,7 @@ footer {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    height: 51px;
+    /* height: 51px; */
     text-align: start;
     margin: 30px;
     padding: 0 100px;
@@ -631,6 +627,9 @@ footer {
 .last-para p {
     margin-bottom: 10px;
     text-align: left;
+}
+.para-hide {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -656,23 +655,16 @@ footer {
         text-align: center;
     }
     .first-hero p {
-        /* width: 327px; */
         height: 19px;
     }
-    .log {
-        margin-left: 300px;
-    }
     .second-hero img {
-        /* width: 327px; */
         height: 328.19px;
-        /* margin: 0px 240px; */
-        /* object-fit: cover;  */
     } 
     .partB {
         flex-direction: column;
         height: fit-content;
-        /* padding: 50px 25px; */
         align-items: center;
+        padding-bottom: 50px;
     }
     .b-one h2 {
         width: 347px;
@@ -684,13 +676,11 @@ footer {
     .b-two {
         height: 368px;
         width: 340px;
+        margin-right: 0px;
     }
     .flex-a, .flex-c {
         height: 121px;
     }
-    /* .flex-div h3 {
-
-    } */
     .flex-div p {
         width: 250.94px;
         height: 70.36px;
@@ -809,7 +799,6 @@ footer {
     }
     .sixth-part {
         height: 1491.15px;
-        /* width: 385px; */
         padding: 0px;
     } 
     .art-six {
@@ -885,26 +874,71 @@ footer {
         word-wrap: break-word;
         z-index: 0;
     }
+    footer {
+        height: 850px;
+    }
     .foot-sect-1 {
         padding: 0px;
         height: 254.5px;
         margin: 0 auto;
-    }
-    .foot-sect-2 {
-        display: block;
-        border-bottom: 1px solid #1AD5FE;
-        height: 357.5px;
-        padding: 0px;
-        max-width: 100%;
-    }
+    } 
     .foot-div-2 {
         margin-left: 0px;
     }
     .foot-svg1 {
         padding: 0px;
     }
-    .foot-div-2 ul, .foot-div-3 ul, .foot-div-4 ul, .foot-div-5 {
-        display: inline-block;
+    .foot-sect-2 {
+        display: none;
     }
-
+    .foot-sect-mobile {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #1AD5FE;
+        height: 387.5px;
+        max-width: 100%;
+        padding: 0px 150px;
+    }
+    .company-flex, .link_flex {
+        display: flex;
+    }
+    .company-flex {
+        gap: 5%;
+    }
+    .foot-sect-mobile  div ul li {
+        padding-bottom: 14px;
+        font-family: 'Gotham Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        color: #1AD5FE;
+    }
+    .first-child {
+        font-size: 14px;
+        line-height: 13px;
+    }
+    .foot-sect-mobile  div  {
+        margin-right: 20px;
+    }
+    .last-para {
+        height: 176px;
+        margin: 0px;
+        padding: 10px 40px;
+    }
+    .first_para1 p:nth-child(2) {
+        display: none;
+    }
+    .para-hide {
+        display: block;
+        margin-top: 26px;
+    }
+    .para-hide p {
+        font-size: 11px;
+        line-height: 11px;
+        width: 263px;
+        height: 11px;
+    }
+    
+   
 }
