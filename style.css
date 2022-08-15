@@ -938,14 +938,3 @@ footer {
         height: 11px;
     }  
 }
-
-@media screen and (min-width: 796px)  and (max-width: 1200px){
-    body {
-        /* max-width: 1100px; */
-    }
-    .hero-section {
-        /* column-gap: 24%; */
-        
-    }
-
-}
