@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    border: 1px solid red;
 
 }
 .main_container {
@@ -13,6 +14,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    padding: 0px 20px;
 }
 header {
     max-width: 100%;
@@ -64,9 +66,6 @@ ul {
     margin-left: 10px;
     border: none;
 }
-/* .start-btn a{
-    color:#FFFFFF
-} */
 .hamburger {
     display: none;
 }
@@ -77,14 +76,12 @@ ul {
     display: flex;
     color: #ffffff;
     font-family: "Inter", sans-serif;
-    /* flex-wrap: wrap; */
-    column-gap: 24%;
+    justify-content: space-around;
 }
  .second-hero svg {
-    /* margin-left: 300px;  */
     margin-top: 80px;
-    width: 400px;
-    height: 441.68px;
+    max-width: 380px;
+    height: 421.68px;
     object-fit: cover; 
  }  
 .first-hero h1 {
@@ -92,7 +89,6 @@ ul {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    /* margin: 55px 55px 55px 0px; */
 }
 .first-hero p {
     font-style: normal;
@@ -117,7 +113,7 @@ ul {
     border: none;
 }
 .first-hero { 
-    margin-left: 100px;
+    /* margin-left: 100px; */
     padding-top: 55px;
 }
 a {
@@ -291,8 +287,8 @@ a {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
     color: #FFFFFF;
-    width: 276px;
-    height: 259px;    
+    width: 250px;
+    height: 250px;    
 }
 .blue-div svg {
     margin-top: 31px;
@@ -308,7 +304,7 @@ a {
 }
 .blue-div p {
     margin-bottom: 65px;
-    width: 234px;
+    width: 204px;
     height: 57px;
     font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
@@ -319,8 +315,8 @@ a {
     margin-left: 24px;
 }
 .white-div1 {
-    width: 276px;
-    height: 259px;
+    width: 250px;
+    height: 250px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
@@ -340,7 +336,7 @@ a {
 }
 .white-div1 p {
     margin-bottom: 65px;
-    width: 234px;
+    width: 204px;
     height: 57px;
     font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
@@ -375,12 +371,12 @@ a {
     justify-content: center;
 }
 .first-half {
-    width: 434px;
+    width: 404px;
     height: 420px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .first-half div h3 {
     margin: 24px 0px 9px 0px;
@@ -407,7 +403,6 @@ a {
     text-align: center;
     margin: 0 24px 27px 29px;
     color: #3D3D46
-    /* word-wrap: break-word; */
 }
 .first-half div button {
     width: 301px;
@@ -415,6 +410,7 @@ a {
     border-radius: 50px;
     height: 43px;
     margin: 0px 0px 35px 67px;
+
     color: #FFFFFF;
 }
 
@@ -494,6 +490,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 100%;
 }
 .bg-div {
     display: flex; 
@@ -578,6 +575,7 @@ footer {
     height: 264px;
     padding: 43.44px 100px 0 100px;
     max-width: 100%;
+    text-align: center;
 }
 .foot-sect-mobile {
     display: none;
@@ -587,7 +585,7 @@ footer {
     padding-left: 60px;
 }
 .foot-sect-2  div ul {
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 .foot-sect-2  div ul li {
     padding-bottom: 15px;
@@ -600,7 +598,7 @@ footer {
     padding-bottom: 25px;    
 }
 .foot-div-2 {
-    margin-left: 120px;
+    margin-left: 40px;
 }
 
 #first-child {
@@ -938,7 +936,16 @@ footer {
         line-height: 11px;
         width: 263px;
         height: 11px;
+    }  
+}
+
+@media screen and (min-width: 796px)  and (max-width: 1200px){
+    body {
+        /* max-width: 1100px; */
     }
-    
-   
+    .hero-section {
+        /* column-gap: 24%; */
+        
+    }
+
 }
